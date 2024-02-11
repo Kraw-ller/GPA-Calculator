@@ -19,70 +19,80 @@
             android:layout_height="150dp"
             android:layout_gravity="center"
             android:layout_marginTop="100dp"
-            android:src="@drawable/logoGPACalculator"
-            app:srcCompat="@drawable/logoGPACalculator" />
+            android:src="@drawable/logogpacalculator"
+            app:srcCompat="@drawable/logogpacalculator" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INELEC GPA Calculator"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/first_year_button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="50dp"
             android:layout_marginRight="40dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="10dp">
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/button1"
-                android:layout_width="match_parent"
+            app:cardElevation="10dp"
+            android:clickable="true"
+            android:focusable="true">
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="1st Year L1"
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 android:textStyle="bold"
-                app:backgroundTint="@color/white"
-                app:cornerRadius="10dp" />
+                android:layout_gravity="center"/>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/second_year_button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="30dp"
             android:layout_marginRight="40dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="10dp">
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/button2"
-                android:layout_width="match_parent"
+            app:cardElevation="10dp"
+            android:clickable="true"
+            android:focusable="true">
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2nd Year L2"
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 android:textStyle="bold"
-                app:backgroundTint="@color/white"
-                app:cornerRadius="10dp" />
+                android:layout_gravity="center"/>
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/third_year_button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="30dp"
             android:layout_marginRight="40dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="10dp">
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/button3"
-                android:layout_width="match_parent"
+            app:cardElevation="10dp"
+            android:clickable="true"
+            android:focusable="true">
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="3rd Year L3"
                 android:textColor="@color/black"
                 android:textSize="30sp"
                 android:textStyle="bold"
-                app:backgroundTint="@color/white"
-                app:cornerRadius="5dp" />
+                android:layout_gravity="center"/>
         </androidx.cardview.widget.CardView>
 
         <TextView
