@@ -6,7 +6,7 @@ import android.os.Bundle
 import androidx.activity.FullyDrawnReporter
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
-import com.example.task.R
+
 
 class L1 : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")

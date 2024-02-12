@@ -3,8 +3,9 @@ package com.example.gpacalculator
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import androidx.cardview.widget.CardView
-import com.example.task.R
+
 
 
 class L01 : AppCompatActivity() {
@@ -12,9 +13,9 @@ class L01 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_l01)
 
-//        val computeButton : Button = findViewById(R.id.compute_button)
-//
-//        var calculusAverage : Float
+        val computeButton: Button = findViewById(R.id.compute_button)
+
+        var calculusAverage : Float
 //        //todo
 //        //create variables for each module average
 //
