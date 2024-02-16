@@ -5,17 +5,16 @@ package com.example.gpacalculator
 import android.widget.EditText
 import android.widget.TextView
 
-class Course(private val courseName: String,
-             private val controlEditText: EditText,
-             private val examEditText: EditText,
-             private val averageTextView: TextView,
-             private val coefTextView: TextView) {
+class Lab(private val labName: String,
+          private val controlEditText: EditText,
+          private val examEditText: EditText,
+          private val averageTextView: TextView,
+          private val coefTextView: TextView) {
     private var average: Float = 0f
-    private var coef: Float = 0f
 
     // Function to calculate the module average
     private fun calculateAverage(): Float {
-        return ((controlEditText.text.toString().toFloat() * 0.4 + examEditText.text.toString().toFloat() * 0.6).toFloat())
+        return ((controlEditText.text.toString().toFloat() * 0.5 + examEditText.text.toString().toFloat() * 0.5).toFloat())
     }
 
     // Function to display the module average
